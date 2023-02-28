@@ -1,0 +1,40 @@
+.element {
+    margin-bottom: 10px;
+    padding-left: 8px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.element-content {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.element-content span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.element-content span{
+    margin-right: 8px;
+}
+
+.element:hover {
+    background-color: #515151;
+}
+
+.element-arrow {
+    position: absolute;
+    top: 2px;
+    left: -30px;
+}
+
+.element-arrow-active {
+    rotate: 90deg;
+}

@@ -1,0 +1,27 @@
+.App {
+  padding: 0 28px;
+}
+
+.app-header {
+  padding: 30px 0;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: #515151;
+}
+
+@media (max-width: 600px) {
+  .app-header {
+    font-size: 14px;
+  }
+}
+
+.app-header a {
+  text-decoration: none;
+  color: #515151
+}
+
+.app-header a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
